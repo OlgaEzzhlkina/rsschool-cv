@@ -52,3 +52,11 @@ function basicOp(operation, value1, value2)
 ```
 
 ---
+
+## Courses:
+
+- CS50 video course
+- JS, CSS, HTML, Git video courses on YouTube channel: **Glo Academy**
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+
+---
