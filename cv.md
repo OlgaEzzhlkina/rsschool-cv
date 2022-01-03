@@ -15,3 +15,13 @@
 I very willing to learn and develop new skills. My goal is to gain knowledge in the field of front-end development.
 
 ---
+
+## Skills:
+
+- HTML5
+- CSS3 (Bootstrap, SASS, BEM)
+- JavaScript Basics
+- Git, GitHub
+- Adobe Photoshop, Figma
+
+---
