@@ -9,3 +9,9 @@
 - Location: Karaganda, Kazakhstan
 
 ---
+
+## About me:
+
+I very willing to learn and develop new skills. My goal is to gain knowledge in the field of front-end development.
+
+---
