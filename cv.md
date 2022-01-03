@@ -60,3 +60,10 @@ function basicOp(operation, value1, value2)
 - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 
 ---
+
+## Languages:
+
+- Russian
+- English (active study)
+
+---
