@@ -12,6 +12,12 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 65px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -22,6 +28,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  background: #74505c;
 }
 
 .header {
@@ -60,4 +67,32 @@ body {
 
 .nav__link:hover {
   color: #b38c9a;
+}
+
+.my-info {
+  background: #74505c;
+  padding: 50px 0;
+  color: #b38c9a;
+}
+
+.my-info-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-about-me {
+  margin-right: 200px;
+  width: 500px;
+}
+
+.info-text {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+
+.my-photo {
+  border-radius: 10px;
+  box-shadow: 2px 1px 15px rgb(0 0 0 / 50%);
 }
