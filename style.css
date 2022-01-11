@@ -281,3 +281,35 @@ body {
   color: #613545;
   border-bottom: 2px solid #613545;
 }
+
+/* ----- LANGUAGES ----- */
+
+.languages {
+  background: #f6eff2;
+  padding: 70px 0;
+  text-align: center;
+  color: #3c3638;
+}
+
+.lang-title {
+  margin-bottom: 50px;
+}
+
+.lang-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lang {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.lang-flag {
+  width: 60px;
+  margin-right: 25px;
+}
