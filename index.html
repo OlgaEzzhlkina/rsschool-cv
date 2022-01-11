@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My CV</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav__menu">
+               <li class="nav__item">
+                  <a href="#about-me" class="nav__link">
+                     About me
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#skills" class="nav__link">
+                     Skills
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#code" class="nav__link">
+                     Code
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#courses" class="nav__link">
+                     Courses
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#languages" class="nav__link">
+                     Languages
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#footer" class="nav__link">
+                     Contacts
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section class="my-info">
+         <div class="container">
+            <div class="my-info-row">
+               <div class="info-about-me">
+                  <h1>
+                     Olga Ezzhalkina
+                  </h1>
+                  <p class="info-text">
+                     Front-end web developer (Beginner)
+                  </p>
+               </div>
+               <img src="assets/img/my_photo.jpg" alt="author photo" class="my-photo">
+            </div>
+         </div>
+      </section>
+
+      <section class="about" id="about">
+         <div class="container">
+            <h2 class="section-title about-title">
+               About me
+            </h2>
+            <p class="about-text">
+               I very willing to learn and develop new skills. My goal is to gain knowledge in the field of front-end development.
+            </p>
+            <p class="about-text">
+               I like to work and see the results of my work.
+            </p>
+            <p class="about-text">
+               I’m interested in Web Development because this occupation provides endless possibilities for professional growth.
+            </p>
+         </div>
+      </section>
+
+      <section class="skills" id="skills">
+         <div class="container">
+            <h2 class="section-title skills-title">
+               Skills and Proficiency
+            </h2>
+            <ul class="skill-list">
+               <li class="skill-list__item">
+                  <img src="assets/icons/html-5.png" alt="html icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_html"></div>
+                  <span class="skill-list__percent">90%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/css-3.png" alt="css icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_css"></div>
+                  <span class="skill-list__percent">80%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/sass.png" alt="sass icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_sass"></div>
+                  <span class="skill-list__percent">35%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/javascript.png" alt="js icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_js"></div>
+                  <span class="skill-list__percent">25%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/git.png" alt="git icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_git"></div>
+                  <span class="skill-list__percent">45%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/adobe-photoshop.png" alt="ps icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_ps"></div>
+                  <span class="skill-list__percent">85%</span>
+               </li>
+               <li class="skill-list__item">
+                  <img src="assets/icons/figma.png" alt="fg icon" class="skill-list__icon">
+                  <div class="skill-list__progress skill-list__progress_fg"></div>
+                  <span class="skill-list__percent">60%</span>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="code" id="code">
+         <div class="container">
+            <h2 class="section-title code-title">
+               Code example
+            </h2>
+            <h3 class="code-subtitle">
+               Basic Mathematical Operations
+            </h3>
+            <pre class="code-example">
+                  function basicOp(operation, value1, value2) {
+                  if (operation === '+') {
+                        return value1 + value2;}
+                  
+                  if (operation === '-') {
+                        return value1 - value2;}
+                  
+                  if (operation === '/') {
+                        return value1 / value2;}
+                  
+                  if (operation === '*') {
+                        return value1 * value2;}
+      }
+               </pre>
+         </div>
+      </section>
+
+      <section class="courses" id="courses">
+         <div class="container">
+            <h2 class="section-title courses-title">
+               Courses
+            </h2>
+            <ul class="courses-list">
+               <li class="courses-list__item">
+                  <a href="https://cs50.harvard.edu/college/2021/spring/" target="_blank" class="courses-list__link">
+                     CS50 video course
+                  </a>
+               </li>
+               <li class="courses-list__item">
+                  <a href="https://www.youtube.com/c/GloAcademyChannel" target="_blank" class="courses-list__link">
+                     JS, CSS, HTML, Git video courses on YouTube channel: <b>Glo Academy</b>
+                  </a>
+               </li>
+               <li class="courses-list__item">
+                  <a href="https://learn.javascript.ru/" target="_blank" class="courses-list__link">
+                     JavaScript Manual on LearnJavaScript.ru (in progress)
+                  </a>
+               </li>
+               <li class="courses-list__item">
+                  <a href="https://rs.school/" target="_blank" class="courses-list__link">
+                     The Rolling Scopes Stage0 (in progress)
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="languages" id="languages">
+         <div class="container">
+            <h2 class="section-title lang-title">
+               Languages
+            </h2>
+            <div class="lang-row">
+               <div class="lang">
+                  <img src="assets/img/russian-flag.png" alt="icon flag" class="lang-flag">
+                  <span class="lang-ru">
+                     Russian 99%
+                  </span>
+               </div>
+               <div class="lang">
+                  <img src="assets/img/britain-flag.png" alt="icon flag" class="lang-flag">
+                  <span class="lang-en">
+                     English 25% (active study)
+                  </span>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer" id="footer">
+      <div class="container">
+         <div class="contact">
+            <p class="contact__info">
+               <a href="tel:+77786288330" class="contact__link">
+                  <i class="fas fa-mobile-alt icon-phone contact__icon"></i>
+                  +7 778 628 8330
+               </a>
+            </p>
+            <p class="contact__info">
+               <a href="#" class="contact__link">
+                  <i class="fab fa-whatsapp icon-whatsapp contact__icon"></i>
+                  +7 778 628 8330
+               </a>
+            </p>
+            <p class="contact__info">
+               <a href="#" class="contact__link">
+                  <i class="far fa-envelope icon-email contact__icon"></i>
+                  iq.deus@gmail.com
+               </a>
+            </p>
+            <p class="contact__info">
+               <a href="#" class="contact__link">
+                  <i class="fab fa-telegram-plane icon-telegram contact__icon"></i>
+                  @olga_ezzhalkina
+               </a>
+            </p>
+            <p class="contact__info">
+               <a href="https://github.com/OlgaEzzhlkina" class="contact__link">
+                  <i class="fab fa-github icon-github contact__icon"></i>
+                  Olga Ezzhalkina
+               </a>
+            </p>
+            <p class="contact__info">
+               <a href="#" class="contact__link">
+                  <i class="fas fa-map-marker-alt icon-map contact__icon"></i>
+                  Karaganda, Kazakhstan
+               </a>
+            </p>
+         </div>
+         <div class="date">
+            <p class="date__info">Olga Ezzhalkina 2022</p>
+            <a href="https://rs.school/js/" class="rsschool-link">
+               <img src="assets/img/rs_school_js.svg" alt="logo rs_school">
+            </a>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>

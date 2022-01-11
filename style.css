@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+h1 {
+  font-size: 65px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.section-title {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: #74505c;
+}
+
+/* ----- HEADER ----- */
+
+.header {
+  background: #74505c;
+  color: #fff;
+  padding: 40px 0 0;
+}
+
+.nav {
+  width: 100%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f4dae3;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin-left: auto;
+}
+
+.nav__item {
+  font-size: 14px;
+}
+
+.nav__link {
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: #b38c9a;
+}
+
+/* ----- MY INFO ----- */
+
+.my-info {
+  background: #74505c;
+  padding: 80px 0;
+  color: #b38c9a;
+}
+
+.my-info-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-about-me {
+  margin-right: 200px;
+  width: 500px;
+}
+
+.info-text {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+
+.my-photo {
+  border-radius: 10px;
+  box-shadow: 2px 1px 15px rgb(0 0 0 / 50%);
+}
+
+/* ----- ABOUT ME ----- */
+
+.about {
+  background: #f4dae3;
+  padding: 80px 0;
+  color: #2f2629;
+  text-align: center;
+}
+
+.about-title {
+  margin-bottom: 25px;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+/* ----- SKILLS ----- */
+
+.skills {
+  background: #e3d0d7;
+  padding: 90px 0 50px;
+  color: #2f2629;
+}
+
+.skills-title,
+.courses-title {
+  margin-bottom: 60px;
+}
+
+.skill-list {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.skill-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.skill-list__subtitle {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-right: 60px;
+}
+
+.skill-list__icon {
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+}
+
+.skill-list__progress {
+  width: 550px;
+  height: 25px;
+  background: #f4dae3;
+  border-radius: 8px;
+  margin-right: 60px;
+  position: relative;
+  flex-shrink: 1;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-list__progress::after {
+  content: "";
+  height: 25px;
+  width: 100%;
+  background: #cc6f90;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skill-list__progress_html.skill-list__progress::after {
+  width: 90%;
+}
+
+.skill-list__progress_css.skill-list__progress::after {
+  width: 80%;
+}
+
+.skill-list__progress_sass.skill-list__progress::after {
+  width: 35%;
+}
+
+.skill-list__progress_js.skill-list__progress::after {
+  width: 25%;
+}
+
+.skill-list__progress_git.skill-list__progress::after {
+  width: 45%;
+}
+
+.skill-list__progress_ps.skill-list__progress::after {
+  width: 85%;
+}
+
+.skill-list__progress_fg.skill-list__progress::after {
+  width: 60%;
+}
+
+.skill-list__percent {
+  font-size: 25px;
+}
+
+/* ----- CODE EXAMPLE ----- */
+
+.code {
+  background: #f6eff2;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.code-title {
+  color: #74505c;
+  margin-bottom: 40px;
+}
+
+.code-subtitle {
+  font-size: 20px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  color: #4b373e;
+}
+
+.code-example {
+  background: #74505c;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 60px 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* ----- COURSES ----- */
+
+.courses {
+  background: #e3d0d7;
+  padding: 90px 0;
+  color: #2f2629;
+}
+
+.courses-list {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.courses-list__item {
+  padding-left: 40px;
+  background: url("assets/img/check.png") left -3px no-repeat;
+}
+
+.courses-list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.courses-list__link {
+  text-decoration: none;
+  color: #2f2629;
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+
+.courses-list__link:hover {
+  color: #613545;
+  border-bottom: 2px solid #613545;
+}
+
+/* ----- LANGUAGES ----- */
+
+.languages {
+  background: #f6eff2;
+  padding: 70px 0;
+  text-align: center;
+  color: #3c3638;
+}
+
+.lang-title {
+  margin-bottom: 50px;
+}
+
+.lang-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lang {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.lang-flag {
+  width: 60px;
+  margin-right: 25px;
+}
+
+/* ----- FOOTER ----- */
+
+.footer {
+  background: #74505c;
+  padding: 60px 0 25px;
+  color: #f4dae3;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact__info {
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+.contact__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  color: #fff;
+}
+
+.contact__icon {
+  margin-right: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+.date__info {
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.rsschool-link {
+  width: 70px;
+  display: block;
+  text-align: center;
+}
