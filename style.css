@@ -313,3 +313,57 @@ body {
   width: 60px;
   margin-right: 25px;
 }
+
+/* ----- FOOTER ----- */
+
+.footer {
+  background: #74505c;
+  padding: 60px 0 25px;
+  color: #f4dae3;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact__info {
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+.contact__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  color: #fff;
+}
+
+.contact__icon {
+  margin-right: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+.date__info {
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.rsschool-link {
+  width: 70px;
+  display: block;
+  text-align: center;
+}
